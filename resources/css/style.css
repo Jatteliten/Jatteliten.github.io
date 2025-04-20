@@ -3,7 +3,7 @@
     --light-cyan: #25c9c9;
     --lightest-cyan: #70e8e8;
     --dark-cyan: #001c1c;
-    --darkest-cyan: #000e0e;
+    --darkest-cyan: #001313;
     --gray: #919191;
     --light-gray: #bdbdbd;
 }
@@ -119,4 +119,8 @@ footer a:hover {
 
 .btn-close {
     filter: invert(1);
+}
+
+.page-title {
+    margin-top: 20px;
 }
