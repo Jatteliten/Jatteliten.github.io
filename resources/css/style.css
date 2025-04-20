@@ -116,3 +116,7 @@ footer a:hover {
     overflow-wrap: break-word;
     white-space: normal;
 }
+
+.btn-close {
+    filter: invert(1);
+}
