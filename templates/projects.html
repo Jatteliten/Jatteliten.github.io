@@ -9,16 +9,21 @@
 <body class="background">
 <nav class="navbar navbar-dark top-navbar">
   <a class="navbar-brand navbar-home" href="../index.html">Home</a>
-  <ul class="navbar-nav">
-    <li class="nav-item active">
-      <a class="nav-link navbar-link" href="../templates/projects.html">Projects</a>
+  <ul class="navbar-nav d-flex flex-row">
+    <li class="nav-item">
+      <a class="nav-link navbar-link active" href="../templates/projects.html">Projects</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link navbar-link" href="../templates/about-me.html">About me</a>
     </li>
   </ul>
 </nav>
 <div class="container">
+  <h1 class="text-white">Projects</h1>
+  <hr style="color:white">
   <h2 class="text-white current-project-header">Current project:</h2>
   <h3 class="project-text">Tattoo website with admin controls
-    <a href="https://github.com/Jatteliten/TattooBooking">
+    <a href="https://github.com/Jatteliten/TattooBooking" target="_blank">
       <button class="btn btn-sm btn-outline-secondary text-white">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
           <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
@@ -27,25 +32,38 @@
       </button>
     </a>
   </h3>
-    <p class="project-text">
-      I am currently working on a website that should allow a tattoo artist to show customers what hours
-      are available to book.
-      <br>
-      The artist should also be able to book sessions and then later add information
-      about the session once it has been completed.
-    </p>
-    <div class="project-text col">
-      <ul class="list-group list-group-flush fit-content-ul">
-        <li class="list-group-item list-group-item-secondary">Pages that the artist wants to serve to customers:</li>
-        <li class="list-group-item">Home page</li>
-        <li class="list-group-item">About me</li>
-        <li class="list-group-item">Frequently asked questions</li>
-        <li class="list-group-item">Booking calendar with available hours</li>
-        <li class="list-group-item">Booking form</li>
-        <li class="list-group-item">Free flash images</li>
-        <li class="list-group-item">Portfolio from Instagram</li>
-      </ul>
-    </div>
+  <p class="project-text">
+    I am currently working on a website that should allow a tattoo artist to show customers what hours
+    are available to book.
+    <br>
+    The artist should also be able to book sessions and then later add information
+    about the session once it has been completed.
+  </p>
+  <div class="project-text col">
+    <ul class="list-group list-group-flush fit-content-ul">
+      <li class="list-group-item list-group-item-secondary">Pages that the artist wants to serve to customers:</li>
+      <li class="list-group-item">Home page</li>
+      <li class="list-group-item">About me</li>
+      <li class="list-group-item">Frequently asked questions</li>
+      <li class="list-group-item">Booking calendar with available hours</li>
+      <li class="list-group-item">Booking form</li>
+      <li class="list-group-item">Free flash images</li>
+      <li class="list-group-item">Portfolio from Instagram</li>
+    </ul>
+  </div>
+  <br>
+  <div class="project-text col">
+    <ul class="list-group list-group-flush fit-content-ul">
+      <li class="list-group-item list-group-item-secondary">Admin functionality that the artist wants:</li>
+      <li class="list-group-item">Add bookable dates that are displayed in a calendar</li>
+      <li class="list-group-item">Set a bookable date as standard, touch up or drop in.</li>
+      <li class="list-group-item">Show a "latest news" section that can me altered by the admin</li>
+      <li class="list-group-item">Be able to change what instagram post is being displayed as a portfolio</li>
+      <li class="list-group-item">Book customers on available or unavailable dates</li>
+      <li class="list-group-item">Upload images of available flash-sheets</li>
+      <li class="list-group-item">Add information such as cost and notes to booked sessions.</li>
+    </ul>
+  </div>
   <br>
   <p class="project-text">
     The backend is written in Java with Spring Boot.
@@ -65,7 +83,98 @@
   <p class="project-text">
     The admin GUI is currently in development and as such, changes a lot. So I would rather not post an image of it at this moment.
   </p>
+
+  <hr style="color:white">
+
+  <h2 class="text-white current-project-header">Older projects:</h2>
+  <h3 class="project-text">Pokémon list website
+    <a href="https://github.com/Jatteliten/Pokemon-List-website" target="_blank">
+      <button class="btn btn-sm btn-outline-secondary text-white">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+          <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+        </svg>
+        Github
+      </button>
+    </a>
+  </h3>
+  <p class="project-text">
+    I created a website that fetched information about Pokémon from <a href="https://pokeapi.co/" target="_blank">PokeApi.co</a>
+    and displayed it in a list.
+  </p>
+  <div class="project-text col">
+    <ul class="list-group list-group-flush fit-content-ul">
+      <li class="list-group-item list-group-item-secondary">Functionality that I wanted:</li>
+      <li class="list-group-item">Home page</li>
+      <li class="list-group-item">Random Pokémon selection/li>
+      <li class="list-group-item">List with all Pokémon</li>
+      <li class="list-group-item">Filter by type function</li>
+      <li class="list-group-item">Search by name function</li>
+      <li class="list-group-item">Additional information about individual Pokémon</li>
+    </ul>
+  </div>
+  <br>
+  <p class="project-text">
+    The backend is written in Java with Spring Boot.
+    <br>
+    The Frontend is written with Thymeleaf.
+    <br>
+    Database via Postgresql.
+    <br>
+    Images are being fetched from <a href="https://pokeapi.co/" target="_blank">PokeApi.co</a>.
+  </p>
+  <p class="project-text">
+    List page:
+  </p>
+  <div class="project-text responsive-image-width project-image">
+    <img class="img-fluid" src="../resources/images/poke-list.png" alt="Tattoo booking website image">
+  </div>
+  <p class="project-text">
+    Filtered page with filter display:
+  </p>
+  <div class="project-text responsive-image-width project-image">
+    <img class="img-fluid" src="../resources/images/poke-list-type-filter.png" alt="Tattoo booking website image">
+  </div>
+  <p class="project-text">
+    Individual Pokémon page:
+  </p>
+  <div class="project-text responsive-image-width project-image">
+    <img class="img-fluid" src="../resources/images/poke-list-individual.png" alt="Tattoo booking website image">
+  </div>
+
+  <hr style="color:white">
+
+  <h3 class="project-text">Advent of code 2024
+    <a href="https://github.com/Jatteliten/Advent-of-code-2024" target="_blank">
+      <button class="btn btn-sm btn-outline-secondary text-white">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+          <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+        </svg>
+        Github
+      </button>
+    </a>
+  </h3>
+  <p class="project-text">
+    I tend to write the code for advent of code challenges as I go along and I do not always
+    optimize the code after the fact.
+    <br>
+    So it might not look the prettiest, but it got the job done.
+    <br>
+    <br>
+    I've been treating advent of code as a benchmark for my progress while studying Java development.
+    <br>
+    As such, I am very proud of being able to solve a whole calendar for the first time!
+    <br>
+    <br>
+    A day or two was solved with pen and paper. Comments are added to those days to explain my thought process.
+  </p>
+    <p class="project-text">
+      Completed advent of code page:
+    </p>
+    <div class="project-text responsive-image-width project-image">
+      <img class="img-fluid" src="../resources/images/advent-of-code-2024.png" alt="Tattoo booking website image">
+    </div>
 </div>
+
 <footer class="footer text-center">
   <hr style="color:white">
   <a href="https://github.com/Jatteliten/" target="_blank">
