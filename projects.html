@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
   <title>Daniel Isaksson</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="resources/css/style.css" rel="stylesheet">
@@ -11,10 +11,10 @@
   <a class="navbar-brand navbar-home" href="index.html">Home</a>
   <ul class="navbar-nav d-flex flex-row">
     <li class="nav-item">
-      <a class="nav-link navbar-link active" href="projects.html">Projects</a>
+      <a class="nav-link navbar-link fs-5 project-text active" href="projects.html">Projects</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link navbar-link" href="about-me.html">About me</a>
+      <a class="nav-link navbar-link fs-5 project-text" href="about-me.html">About me</a>
     </li>
   </ul>
 </nav>
@@ -22,7 +22,9 @@
   <h1 class="text-white">Projects</h1>
   <hr class="hr-cyan">
   <h2 class="text-white project-header">Current project</h2>
-  <h3 class="project-text text-white">Tattoo website with booking capabilities
+
+  <h3 class="text-white fs-3 project-header">
+      Tattoo website with booking capabilities
     <a href="https://github.com/Jatteliten/TattooBooking" target="_blank">
       <button class="btn btn-sm btn-outline-secondary text-white">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
@@ -32,7 +34,7 @@
       </button>
     </a>
   </h3>
-  <p class="project-text">
+  <p class="fs-5 project-text">
     I am currently working on a website that should allow a tattoo artist to show customers what hours
     are available to book.
     <br>
@@ -65,7 +67,7 @@
     </ul>
   </div>
   <br>
-  <p class="project-text">
+  <p class="fs-5 project-text">
     The backend is written in Java with Spring Boot.
     <br>
     The Frontend is written with Thymeleaf.
@@ -74,21 +76,22 @@
     <br>
     Images are being stored in an AWS S3 bucket.
   </p>
-  <p class="project-text">
+  <p class="fs-5 project-text">
     Current progress image (Hovering over a date shows what hours are available):
   </p>
   <div class="project-text responsive-image-width project-image">
     <img class="img-fluid" src="resources/images/tattoo-booking.png" alt="Tattoo booking website image"
          data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openImageModal(this)">
   </div>
-  <p class="project-text">
+  <p class="fs-5 project-text">
     The admin GUI is currently in development and as such, changes a lot. So I would rather not post an image of it at this moment.
   </p>
 
   <hr class="hr-cyan">
 
   <h2 class="text-white project-header">Older projects</h2>
-  <h3 class="project-text text-white">Pokémon list website
+  <h3 class="text-white fs-3 project-header">
+    Pokémon list website
     <a href="https://github.com/Jatteliten/Pokemon-List-website" target="_blank">
       <button class="btn btn-sm btn-outline-secondary text-white">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
@@ -98,7 +101,7 @@
       </button>
     </a>
   </h3>
-  <p class="project-text">
+  <p class="fs-5 project-text">
     I created a website that fetched information about Pokémon from <a href="https://pokeapi.co/" target="_blank">PokeApi.co</a>
     and displayed it in a list.
   </p>
@@ -114,7 +117,7 @@
     </ul>
   </div>
   <br>
-  <p class="project-text">
+  <p class="fs-5 project-text">
     The backend is written in Java with Spring Boot.
     <br>
     The Frontend is written with Thymeleaf.
@@ -123,21 +126,21 @@
     <br>
     Images are being fetched from <a href="https://pokeapi.co/" target="_blank">PokeApi.co</a>.
   </p>
-  <p class="project-text">
+  <p class="fs-5 project-text">
     List page:
   </p>
   <div class="project-text responsive-image-width project-image">
     <img class="img-fluid" src="resources/images/poke-list.png" alt="Pokémon list"
          data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openImageModal(this)">
   </div>
-  <p class="project-text">
+  <p class="fs-5 project-text">
     Filtered page with filter display:
   </p>
   <div class="project-text responsive-image-width project-image">
     <img class="img-fluid" src="resources/images/poke-list-type-filter.png" alt="Filtered Pokémon list"
          data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openImageModal(this)">
   </div>
-  <p class="project-text">
+  <p class="fs-5 project-text">
     Individual Pokémon page:
   </p>
   <div class="project-text responsive-image-width project-image">
@@ -147,7 +150,8 @@
 
   <hr class="hr-cyan">
 
-  <h3 class="project-text text-white">Advent of code 2024
+  <h3 class="text-white fs-3 project-header">
+    Advent of code 2024
     <a href="https://github.com/Jatteliten/Advent-of-code-2024" target="_blank">
       <button class="btn btn-sm btn-outline-secondary text-white">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
@@ -157,7 +161,7 @@
       </button>
     </a>
   </h3>
-  <p class="project-text">
+  <p class="fs-5 project-text">
     I tend to write the code for advent of code challenges as I go along and I do not always
     optimize the code after the fact.
     <br>
@@ -171,7 +175,7 @@
     <br>
     A day or two was solved with pen and paper. Comments are added to those days to explain my thought process.
   </p>
-  <p class="project-text">
+  <p class="fs-5 project-text">
     Completed advent of code page:
   </p>
   <div class="project-text responsive-image-width project-image">
@@ -181,7 +185,8 @@
 
   <hr class="hr-cyan">
 
-  <h3 class="project-text text-white">Snake
+  <h3 class="text-white fs-3 project-header">
+      Snake
     <a href="https://github.com/Jatteliten/Snake" target="_blank">
       <button class="btn btn-sm btn-outline-secondary text-white">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
@@ -191,7 +196,7 @@
       </button>
     </a>
   </h3>
-  <p class="project-text">
+  <p class="fs-5 project-text">
     One of the first small projects I created while learning Java with Swing.
     <br>
     The game reads and writes high scores to a file after a game has been played.
@@ -205,11 +210,11 @@
     </ul>
   </div>
   <br>
-  <p class="project-text">
+  <p class="fs-5 project-text">
     The whole project is written with Java and uses Java Swing to display the game.
   </p>
   <br>
-  <p class="project-text">
+  <p class="fs-5 project-text">
     Gameplay and high score table:
   </p>
   <div class="project-text responsive-image-width project-image">
