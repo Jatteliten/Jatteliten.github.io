@@ -110,3 +110,9 @@ footer a:hover {
 .body-text-link{
     color: white;
 }
+
+.list-group-item {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
