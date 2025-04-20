@@ -12,7 +12,7 @@
 }
 
 .top-navbar{
-    background-color: black;
+    background-color: var(--darkest-cyan);
 }
 
 .navbar-home{
@@ -24,7 +24,7 @@
 }
 
 .background{
-    background-color: var(--darkest-cyan);
+    background-color: var(--dark-cyan);
 }
 
 .card-cyan-border{
