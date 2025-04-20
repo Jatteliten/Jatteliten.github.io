@@ -1,0 +1,102 @@
+:root {
+    --primary-cyan: #006161;
+    --light-cyan: #007d7d;
+    --dark-cyan: #001c1c;
+    --darkest-cyan: #000e0e;
+    --gray: #919191;
+    --light-gray: #bdbdbd;
+}
+
+.top-navbar{
+    background-color: black;
+}
+
+.navbar-home{
+    margin-left:15px;
+}
+
+.navbar-link{
+    margin-right: 15px;
+}
+
+.background{
+    background-color: var(--darkest-cyan);
+}
+
+.card-cyan-border{
+    border-color: var(--light-cyan);
+}
+
+.responsive-card-width {
+    width: 25%;
+}
+
+@media (min-width: 768px) {
+    .responsive-card-width {
+        width: 75%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .responsive-card-width {
+        width: 85%;
+    }
+}
+
+.my-portfolio-h1{
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.presentation-text{
+    color: var(--gray);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.current-project-header{
+    margin-left: 15px;
+}
+
+.project-text{
+    margin-left: 30px;
+    margin-right: 30px;
+    color: var(--light-gray);
+}
+
+.fit-content-ul {
+    width: fit-content;
+    min-width: max-content;
+}
+
+.project-image{
+    margin-bottom: 20px;
+}
+
+.responsive-card-width {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .responsive-image-width {
+        width: 75%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .responsive-image-width {
+        width: 50%;
+    }
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    padding:5px;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: none;
+}
