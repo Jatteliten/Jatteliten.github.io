@@ -1,10 +1,14 @@
 :root {
     --primary-cyan: #006161;
-    --light-cyan: #007d7d;
+    --light-cyan: #25c9c9;
     --dark-cyan: #001c1c;
     --darkest-cyan: #000e0e;
     --gray: #919191;
     --light-gray: #bdbdbd;
+}
+
+.hr-cyan{
+    color: var(--light-cyan);
 }
 
 .top-navbar{
