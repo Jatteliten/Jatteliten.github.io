@@ -78,7 +78,8 @@
     Current progress image (Hovering over a date shows what hours are available):
   </p>
   <div class="project-text responsive-image-width project-image">
-    <img class="img-fluid" src="resources/images/tattoo-booking.png" alt="Tattoo booking website image">
+    <img class="img-fluid" src="resources/images/tattoo-booking.png" alt="Tattoo booking website image"
+         data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openImageModal(this)">
   </div>
   <p class="project-text">
     The admin GUI is currently in development and as such, changes a lot. So I would rather not post an image of it at this moment.
@@ -126,19 +127,22 @@
     List page:
   </p>
   <div class="project-text responsive-image-width project-image">
-    <img class="img-fluid" src="resources/images/poke-list.png" alt="Pokémon list">
+    <img class="img-fluid" src="resources/images/poke-list.png" alt="Pokémon list"
+         data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openImageModal(this)">
   </div>
   <p class="project-text">
     Filtered page with filter display:
   </p>
   <div class="project-text responsive-image-width project-image">
-    <img class="img-fluid" src="resources/images/poke-list-type-filter.png" alt="Filtered Pokémon list">
+    <img class="img-fluid" src="resources/images/poke-list-type-filter.png" alt="Filtered Pokémon list"
+         data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openImageModal(this)">
   </div>
   <p class="project-text">
     Individual Pokémon page:
   </p>
   <div class="project-text responsive-image-width project-image">
-    <img class="img-fluid" src="resources/images/poke-list-individual.png" alt="Individual Pokémon information">
+    <img class="img-fluid" src="resources/images/poke-list-individual.png" alt="Individual Pokémon information"
+         data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openImageModal(this)">
   </div>
 
   <hr class="hr-cyan">
@@ -171,7 +175,8 @@
     Completed advent of code page:
   </p>
   <div class="project-text responsive-image-width project-image">
-    <img class="img-fluid" src="resources/images/advent-of-code-2024.png" alt="Advent of code completion screen">
+    <img class="img-fluid" src="resources/images/advent-of-code-2024.png" alt="Advent of code completion screen"
+         data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openImageModal(this)">
   </div>
 
   <hr class="hr-cyan">
@@ -204,10 +209,22 @@
     Gameplay and high score table:
   </p>
   <div class="project-text responsive-image-width project-image">
-    <img class="img-fluid" src="resources/images/snake.png" alt="Snake gameplay">
+    <img class="img-fluid" src="resources/images/snake.png" alt="Snake gameplay"
+         data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openImageModal(this)">
   </div>
   <div class="project-text responsive-image-width project-image">
-    <img class="img-fluid" src="resources/images/snake-high-score.png" alt="Snake high score">
+    <img class="img-fluid" src="resources/images/snake-high-score.png" alt="Snake high score"
+         data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openImageModal(this)">
+  </div>
+</div>
+
+<div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content bg-dark">
+      <div class="modal-body text-center">
+        <img src="" id="modalImage" class="img-fluid" alt="Enlarged image">
+      </div>
+    </div>
   </div>
 </div>
 
@@ -224,5 +241,8 @@
     </svg>
   </a>
 </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="resources/js/open-modal.js"></script>
 </body>
 </html>
