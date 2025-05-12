@@ -28,26 +28,6 @@
     background-color: var(--dark-cyan);
 }
 
-.card-cyan-border{
-    border-color: var(--light-cyan);
-}
-
-.responsive-card-width {
-    width: 25%;
-}
-
-@media (min-width: 768px) {
-    .responsive-card-width {
-        width: 75%;
-    }
-}
-
-@media (min-width: 1200px) {
-    .responsive-card-width {
-        width: 85%;
-    }
-}
-
 .my-portfolio-h1{
     font-weight: bolder;
     margin-top: 10px;
@@ -77,11 +57,8 @@
 }
 
 .project-image{
-    margin-bottom: 20px;
-}
-
-.responsive-card-width {
-    width: 100%;
+    margin-top: 20px;
+    justify-content:center;
 }
 
 @media (min-width: 768px) {
